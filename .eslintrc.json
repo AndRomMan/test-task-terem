@@ -1,0 +1,56 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    // "htmlacademy/es5",
+    "htmlacademy/es6",
+    "prettier"
+    // "eslint-config-prettier",
+    // Turns off all rules that are unnecessary or might conflict with Prettier.
+    // "eslint-config-prettier"
+  ],
+  // The setting for eslint-plugin-prettier.
+  // It runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
+  "plugins": [
+    "prettier"
+  ],
+  // here we can reset all rules as we wish
+  //"off" or 0 - turn the rule off
+  //"warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
+  //"error" or 2 - turn the rule on as an error (exit code will be 1)
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "strict": [
+      "off",
+      "global"
+    ],
+    "no-console": "warn",
+    "no-alert": "warn"
+  }
+}

@@ -1,0 +1,35 @@
+// -------------------------- blocks dimensions
+$mobile-min-width: 992px;
+$desktop-max-width: 1200px;
+$site-main-min-height: 738px;
+$section-header-min-height: 51px;
+$navbar-closed-width: 50px;
+$navbar-opened-width: 200px;
+$button-bullet-diameter: 7px;
+
+// -------------------------- basic colors
+$basic-black: #000000;
+$basic-white: #ffffff;
+$basic-gray: #e5e5e5;
+$basic-red: #c00000 ;
+
+
+// -------------------------- fonts
+$font-black: $basic-dark;
+$font-white: $basic-white;
+
+
+
+// -------------------------- background colors
+
+
+// -------------------------- effects
+$link-underline-shift: 3px;
+$button-focus: $basic-red;
+$button-hover-outline: $basic-red;
+$active-state-opacity: 0.6;
+$button-bullet-back-focus: $basic-white;
+
+// .button:hover,
+// .button:focus,
+// .button:active

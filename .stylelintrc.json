@@ -1,0 +1,39 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "number-leading-zero": "always",
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "composes"
+        ]
+      }
+    ],
+    "declaration-no-important": true,
+    "unit-allowed-list": [
+      "em",
+      "deg",
+      "rem",
+      "px",
+      "vh",
+      "vw",
+      "dppx",
+      "dpi",
+      "%",
+      "fr",
+      "s"
+    ],
+    "indentation": [
+      2,
+      {
+        "ignore": [
+          "inside-parens"
+        ]
+      }
+    ]
+  }
+}

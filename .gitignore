@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+.DS_Store
+.idea
+.vscode
+package-lock.json
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+technology/
+node_modules/
+npm-debug.*
+source/css/
+source/content/
+Thumbs.db
+debug.log
+/config-gulp.js
+
+# путь от корня! /*.txt ; /doc/setting/*.txt = doc/setting/*.txt
+
+# .md files
+check-list*.md
+bug-fix*.md
+content*.md
