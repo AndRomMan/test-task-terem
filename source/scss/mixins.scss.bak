@@ -1,5 +1,0 @@
-@mixin section-header () {
-  min-height: $section-header-min-height;
-
-  border-bottom: 1px solid $section-header-border;
-}

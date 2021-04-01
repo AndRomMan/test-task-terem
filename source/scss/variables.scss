@@ -1,34 +1,38 @@
 // -------------------------- blocks dimensions
-$mobile-min-width: 992px;
-$desktop-max-width: 1200px;
-$site-main-min-height: 738px;
-$section-header-min-height: 51px;
-$navbar-closed-width: 50px;
-$navbar-opened-width: 200px;
-$button-bullet-diameter: 7px;
+$tablet_breakpoint: 1100px;
+$mobile-min-width: 576px;
+// $desktop-max-width: 1048px;
+$desktop-max-width: 1088px;
+
 
 // -------------------------- basic colors
 $basic-black: #000000;
 $basic-white: #ffffff;
 $basic-gray: #e5e5e5;
-$basic-red: #c00000 ;
+$basic-dark-gray: #c2c2c2;
+$basic-red: #c00000;
 
+// -------------------------- border
+$input-border: $basic-dark-gray;
+$border-radius: 3px;
 
 // -------------------------- fonts
-$font-black: $basic-dark;
+$font-black: $basic-black;
 $font-white: $basic-white;
+$font-red: $basic-red;
 
-
-
-// -------------------------- background colors
-
-
+// -------------------------- background
+$body-back: $basic-white;
+$section-back: $basic-gray;
+$button-back: $basic-red;
 // -------------------------- effects
-$link-underline-shift: 3px;
-$button-focus: $basic-red;
-$button-hover-outline: $basic-red;
+$outline-shift: 3px;
+$button-hover-outline-color: #ce7d7d;
+$input-hover-outline-color: rgba($basic-black, 0.5);
+$input-focus-outline-color: $basic-black;
+$button-hover-outline-color: rgba($basic-black, 0.5);
+$button-focus-outline-color: $basic-black;
 $active-state-opacity: 0.6;
-$button-bullet-back-focus: $basic-white;
 
 // .button:hover,
 // .button:focus,

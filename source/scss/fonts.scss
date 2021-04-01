@@ -13,35 +13,9 @@
   font-family: "IBM Plex Sans";
 
   font-display: swap;
-  src: local("IBM-Plex-Sans-Bold"), url("../fonts/ibm-plex-sans-v8-latin_cyrillic-700.woff2") format("woff2") format("woff2"), url("../fonts/ibm-plex-sans-v8-latin_cyrillic-700.woff") format("woff");
+  src: local("IBM-Plex-Sans-Bold"), url("../fonts/ibm-plex-sans-v8-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/ibm-plex-sans-v8-latin_cyrillic-700.woff") format("woff");
 }
 
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Montserrat";
-
-  font-display: swap;
-  src: local("Montserrat-Regular"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff");
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "Montserrat";
-
-  font-display: swap;
-  src: local("Montserrat-Bold"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2") format("woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff");
-}
-
-
-@mixin font_mont($size, $line_height, $weight, $color) {
-  font-weight: $weight;
-  font-size: $size;
-  line-height: $line_height;
-  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
-  color: $color;
-}
 
 @mixin font_plex($size, $line_height, $weight, $color) {
   font-weight: $weight;

@@ -1,0 +1,13 @@
+.site-header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  @include font_plex(18px, 36px, 700, $font-black);
+}
+
+.site-header h1 {
+  margin: 0;
+
+  text-align: center;
+  text-transform: uppercase;
+}

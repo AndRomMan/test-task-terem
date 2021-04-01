@@ -1,0 +1,21 @@
+.site-footer {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid $input-border;
+
+  @include font_plex(16px, 20px, 400, $font-black);
+}
+
+
+.site-footer a {
+  color: $font-black;
+}
+
+
+.site-footer img {
+  margin-right: 30px;
+}

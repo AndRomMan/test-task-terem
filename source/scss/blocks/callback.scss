@@ -1,0 +1,22 @@
+.callback {
+  padding-top: 22px;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-left: 33px;
+}
+
+.callback__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+
+  @include font_plex(30px, 36px, 700, $font-black);
+}
+
+.callback__subtitle {
+  margin: 0;
+  margin-bottom: 53px;
+
+  @include font_plex(16px, 20px, 400, $font-black);
+}

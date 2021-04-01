@@ -1,0 +1,42 @@
+.certificate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.certificate-form label {
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+.certificate-form input {
+  width: 100%;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 11px;
+  padding-left: 16px;
+
+  border: 1px solid $input-border;
+  border-radius: $border-radius;
+
+  @include font_plex(15px, 18px, 400, $font-black);
+}
+
+.certificate-form__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.certificate-form button {
+  width: 100%;
+}
+
+.certificate__policy {
+  color: $font-black;
+
+  border-bottom: 1px solid $font-black;
+}

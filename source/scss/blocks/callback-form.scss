@@ -1,0 +1,82 @@
+.callback-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  @media (max-width: $tablet_breakpoint) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.callback-form input {
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+
+  border: 1px solid $input-border;
+  border-radius: $border-radius;
+
+  @include font_plex(16px, 20px, 400, $font-black);
+}
+
+.callback-form__username {
+  width: 447px;
+
+  @media (max-width: $tablet_breakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.callback-form__username input {
+  width: 100%;
+}
+
+.callback-form__userphone {
+  width: 224px;
+
+  @media (max-width: $tablet_breakpoint) {
+    width: 447px;
+    margin-bottom: 20px;
+  }
+}
+
+.callback-form__userphone input {
+  width: 100%;
+}
+
+.callback-form__button {
+  width: 315px;
+
+  @media (max-width: $tablet_breakpoint) {
+    width: 447px;
+    margin-bottom: 20px;
+  }
+}
+
+.callback-form__privacy {
+  display: flex;
+  align-items: center;
+  order: 1;
+  width: 100%;
+  margin-top: 22px;
+
+  @include font_plex(16px, 20px, 400, $font-black);
+
+
+  @media (max-width: $tablet_breakpoint) {
+    width: 447px;
+    margin-bottom: 20px;
+  }
+}
+
+.callback-form__privacy p {
+  margin: 0;
+}
+
+.callback-form__privacy input {
+  margin-right: 12px;
+  margin-left: 2px;
+}
