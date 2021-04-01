@@ -55,8 +55,7 @@
     "delNpmModules": "rimraf node_modules"
   },
   "browserslist": [
-    "defaults",
-    "IE 11"
+    "defaults"
   ],
   "editorconfig-cli": [
     "*.json",
