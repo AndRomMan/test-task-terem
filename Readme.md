@@ -1,6 +1,6 @@
 # Проект "Terem test"
 
-**[Сайт в интернете: https://demindesign.ru/intas-test/](https://demindesign.ru/terem-test/)**
+**[Сайт в интернете:](https://andromman.github.io/terem/build/)**
 
 * * *
 Разработчик: **[Роман Демин](https://htmlacademy.ru/profile/id219593)**
