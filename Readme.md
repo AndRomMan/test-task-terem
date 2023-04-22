@@ -1,6 +1,6 @@
 # Проект "Terem test"
 
-**Сайт в интернете: [Терем](https://andromman.github.io/terem/build/)**
+**[Сайт в интернете](https://andromman.github.io/terem/build/)**
 
 * * *
 Разработчик: **[Роман Демин](https://htmlacademy.ru/profile/id219593)**
